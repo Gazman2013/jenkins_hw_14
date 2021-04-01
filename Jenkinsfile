@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/Gazman2013/kuber_home.git'
+        git 'https://github.com/gustavoapolinario/microservices-node-example-todo-frontend.git'
       }
     }
     stage('Building image') {
