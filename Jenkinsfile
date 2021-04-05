@@ -5,12 +5,12 @@ pipeline {
     dockerImage = ''
   }
   agent any
-//  stages {
+  stages {
 //    stage('Cloning Git') {
 //      steps {
- //       git 'https://github.com/Gazman2013/jenkins_hw.git'
-//      }
- //   }
+//       git 'https://github.com/Gazman2013/jenkins_hw.git'
+//     }
+//   }
     stage('Building image') {
       steps{
         script {
